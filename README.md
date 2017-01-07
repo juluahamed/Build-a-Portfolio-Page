@@ -11,7 +11,6 @@ It also uses font-awesome, googlefonts api, and bootstrap js files.
 
 ##File/Branch Structure
 - master Branch contains the default version of the working project along with gulp plugins that were used
-- Checkout master 'gh-dist' file for the project with minified files
 
 ##Usage
 - Download/Clone/Fork the master branch and load the index.html file in your browser
