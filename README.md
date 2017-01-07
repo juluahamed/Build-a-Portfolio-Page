@@ -1,4 +1,4 @@
-#Build a Portfolio Project
+#Build a Portfolio Page
 A simple responsive and grid based portfolio page created using HTML, CSS and Bootstrap framework.
 It also uses font-awesome, googlefonts api, and bootstrap js files.
 
