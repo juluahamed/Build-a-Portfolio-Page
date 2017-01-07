@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="description" content="Portfolio webpage for Udacity Nanodegree course" />
+  	<meta name="author" content="//juluahamed.com">
+  	<meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  	<meta charset="utf-8">
+    <meta name="mobile-web-app-capable" content="yes">
+  	<base target="_blank">
+	<title>Julu Ahamed: My Portfolio</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+   	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"></link>
+  	<link rel="stylesheet" href="css/style.css" />
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/6ba9801de3.js"></script>
+</head>
+<body>
+	<!-- Navigation -->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid" id="page_top">
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		    <span class="icon-bar"></span>
+		    <span class="icon-bar"></span>
+		    <span class="icon-bar"></span>                        
+		  </button>
+		  <a class="navbar-brand" href="#">Portfolio</a>
+		</div>
+		<div class="collapse navbar-collapse" id="myNavbar">
+		  <ul class="nav navbar-nav navbar-right">
+		    <li class="active"><a href="#">Home</a></li>
+		    <li><a href="#content">Content</a></li>
+		    <li><a href="#featured_work">Works</a></li>
+		  </ul>
+		</div>
+		</div>
+	</nav>
+	<div class="container">
+		<!-- Header -->
+		<header class="header">
+			<div class="logo">
+				<svg id="logo" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+			        <title>Responsive logo</title>
+			        <path d="M20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69zM12 18c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6zm0-10c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4z"></path>
+			     </svg>
+			</div>
+			<div class="header_name">
+				<h1 class="text-uppercase text-right">Jane Doette</h1>
+            	<h3 class="text-uppercase text-right">Front-end Ninja</h3>
+			</div>
+		</header>
+		<hr>
+		<!--Content -->
+		<div class="row" id="content">
+			<div class="col-md-12">
+				<figure>
+					<picture>
+					    <source 
+						    media="(min-width: 700px)"
+						    srcset="images/cover-800_1x.png 1x, images/cover-large.png 2x">
+						<source 
+						    media="(min-width: 400px)"
+						    srcset="images/cover-500.png">
+						
+						<img class="img-responsive" src="images/cover-small.png" alt="A cover image with random HTML scripts">
+					</picture>
+				</figure>
+			</div>
+		</div>
+		<!--Featured Work -->
+		<div class="row" id="featured_work">
+			<div class="col-md-12">
+				<h2>Featured Work</h2>
+			</div>
+		</div>
+		<div class="flex-box">
+			<div class="box" id="box1">
+				<figure>
+					<picture>
+						<img class="img-responsive" src="images/555x300">
+					</picture>
+				</figure>
+				<h4 class="text-uppercase text-center">appify</h4>
+				<a href="https://github.com/udacity/Appify"><p class="text-center">https://github.com/udacity/Appify</p></a>
+			</div>
+			<div class="box" id="box2">
+				<figure>
+					<picture>
+						<img class="img-responsive" src="images/555x300">
+					</picture>
+				</figure>
+				<h4 class="text-uppercase text-center">sunflower</h4>
+				<a href="https://github.com/udacity/Sunflower"><p class="text-center">https://github.com/udacity/Sunflower</p></a>
+			</div>
+			<div class="box" id="box3">
+				<figure>
+					<picture>
+						<img class="img-responsive" src="images/555x300">
+					</picture>
+				</figure>
+				<h4 class="text-uppercase text-center">bokeh</h4>
+				<a href="https://github.com/udacity/Bokeh"><p class="text-center">https://github.com/udacity/Bokeh</p></a>
+
+			</div>
+		</div>
+	</div>
+	<br>
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="container">
+			<p class="text-muted text-center"> Developed By Julu Ahamed.     Contact Me: <a href="https://www.github.com/juluahamed"><i class="fa fa-github fa-lg fa-fw"></i></a> <a href="https://www.twitter.com/juluahamed"><i class="fa fa-twitter fa-lg fa-fw"></i></a></p>
+		</div>
+	</footer>
+
+</body>
+</html>

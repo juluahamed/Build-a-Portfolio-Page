@@ -1,0 +1,26 @@
+{
+  "name": "build-a-portfolio-page",
+  "version": "1.0.0",
+  "description": "A simple responsive and grid based portfolio page created using HTML, CSS and Bootstrap framework. It also uses font-awesome, googlefonts api, and bootstrap js files.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juluahamed/build-a-portfolio-page.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Julu Ahamed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juluahamed/build-a-portfolio-page/issues"
+  },
+  "homepage": "https://github.com/juluahamed/build-a-portfolio-page#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-responsive-images": "0.0.3"
+  }
+}
